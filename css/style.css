@@ -255,7 +255,7 @@ a#copyRightButton {
 }
 #PcChartWrapper.rightChartFullScreenToggled{
     position: absolute;
-    width: 150%;
+    zoom: 150%;
 }
 #thumbnails-btm_container.rightChartFullScreenToggled{
     width: 25%;
