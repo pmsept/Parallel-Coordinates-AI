@@ -219,7 +219,7 @@
 
         }else if (_folderInfo.DE_PW.length>0){
             // if _folderInfo.DE_PW existed, just return.
-            studyEncodedUrl = document.location.origin + "/DesignExplorer/?ID=" + _folderInfo.DE_PW;
+            studyEncodedUrl = document.location.origin + "/Prism/?ID=" + _folderInfo.DE_PW;
             d3.select("#showShortUrl").html("https://goo.gl/" +_folderInfo.DE_PW);
             d3.select("#myStudyID").html(studyEncodedUrl);
             $("#showStillLink").modal();
@@ -228,7 +228,7 @@
         }
 
         //valid online folder available
-        var studyLongUrl = document.location.origin +"/DesignExplorer/?ID="+ studyCaseLink;
+        var studyLongUrl = document.location.origin +"/Prism/?ID="+ studyCaseLink;
         d3.select("#welcome").style("display","none");
 
 
@@ -238,7 +238,7 @@
 
             if(UrlId.length ==6){ // google url id
 
-                studyEncodedUrl = document.location.origin +"/DesignExplorer/?ID="+_folderInfo.DE_PW;
+                studyEncodedUrl = document.location.origin +"/Prism/?ID="+_folderInfo.DE_PW;
                 d3.select("#showShortUrl").html("https://goo.gl/"+ _folderInfo.DE_PW);
 
             }else{
